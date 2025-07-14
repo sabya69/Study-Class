@@ -1,0 +1,132 @@
+.about-section {
+  padding: 80px 20px;
+  background-color: #f9fafb;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  gap: 40px;
+}
+
+.owner-image img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.owner-info {
+  flex: 1;
+}
+
+.owner-info h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.owner-info h3 {
+  font-size: 1.5rem;
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+
+.owner-info p {
+  color: #374151;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.owner-links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #4f46e5;
+  font-weight: 500;
+}
+
+.owner-links a:hover {
+  text-decoration: underline;
+}
+.about-platform {
+  background-color: #ffffff;
+  padding: 80px 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.about-platform-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-platform h2 {
+  font-size: 2.2rem;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.about-platform p {
+  color: #374151;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+.about-goals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  text-align: left;
+}
+
+.about-goals div {
+  flex: 1 1 400px;
+  background-color: #f9fafb;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+}
+
+.about-goals h3 {
+  font-size: 1.4rem;
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+.core-values {
+  background-color: #f1f5f9;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.core-values h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #111827;
+}
+
+.values-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.value-box {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.value-box h4 {
+  font-size: 1.25rem;
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
